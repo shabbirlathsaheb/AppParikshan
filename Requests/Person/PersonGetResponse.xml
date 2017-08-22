@@ -1,0 +1,23 @@
+<Responses>
+  <Response>
+    {
+    "id": 1,
+    "name": "Shabbir",
+    "designation": "Developer",
+    "dateOfBirth": "1987-04-03T00:00:00",
+    "isActive": true,
+    "phones": [
+    {
+    "id": 1,
+    "phoneNumber": 123456789
+    }
+    ],
+    "emails": [
+    {
+    "id": 1,
+    "emailAddress": "s.lathsaheb@iaea.org"
+    }
+    ]
+    }
+  </Response>
+</Responses>
