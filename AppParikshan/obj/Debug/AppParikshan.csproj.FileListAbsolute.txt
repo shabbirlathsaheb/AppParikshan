@@ -1,9 +1,0 @@
-C:\SL\Parikshan\AppParikshan\AppParikshan\bin\Debug\AppParikshan.exe.config
-C:\SL\Parikshan\AppParikshan\AppParikshan\bin\Debug\AppParikshan.exe
-C:\SL\Parikshan\AppParikshan\AppParikshan\bin\Debug\AppParikshan.pdb
-C:\SL\Parikshan\AppParikshan\AppParikshan\obj\Debug\AppParikshan.csprojResolveAssemblyReference.cache
-C:\SL\Parikshan\AppParikshan\AppParikshan\obj\Debug\AppParikshan.Parikshan.resources
-C:\SL\Parikshan\AppParikshan\AppParikshan\obj\Debug\AppParikshan.Properties.Resources.resources
-C:\SL\Parikshan\AppParikshan\AppParikshan\obj\Debug\AppParikshan.csproj.GenerateResource.Cache
-C:\SL\Parikshan\AppParikshan\AppParikshan\obj\Debug\AppParikshan.exe
-C:\SL\Parikshan\AppParikshan\AppParikshan\obj\Debug\AppParikshan.pdb

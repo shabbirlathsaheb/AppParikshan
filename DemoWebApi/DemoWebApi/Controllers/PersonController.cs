@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
         List<Person> persons = new List<Person> {
                 new Person{ DateOfBirth = new DateTime(1987, 04, 03),
                  Designation = "Developer", ID = 1, Name = "Shabbir", IsActive = true,
-                Emails = new List<Email> { new Email { ID = 1, EmailAddress = "s.lathsaheb@iaea.org"
+                Emails = new List<Email> { new Email { ID = 1, EmailAddress = "shabbir.husain.1987@gmail.com"
                 }}, Phones = new List<Phone>{ new Phone { ID =1, PhoneNumber = 123456789 } }
                 }
             };

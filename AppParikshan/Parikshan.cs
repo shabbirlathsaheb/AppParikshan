@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.IO;
@@ -17,7 +18,7 @@ namespace AppParikshan
         {
             InitializeComponent();
         }
-        string path = @"C:\SL\AppParikshan";
+        string path = ConfigurationManager.AppSettings["RequestsPath"];
         private void Parikshan_Load(object sender, EventArgs e)
         {
             var directories = Directory.GetDirectories(path);
@@ -26,7 +27,7 @@ namespace AppParikshan
             {
                 var directoryName = dir.Split(Path.DirectorySeparatorChar).Last();
                 var directoryNode = new TreeNode(directoryName);
-                var files = Directory.GetFiles(dir, "*.xml")?.Where(f => f.Contains("Request"));
+                var files = Directory.GetFiles(dir, "*.xml")?.Where(f => f.Contains("Request.xml"));
                 foreach (var file in files)
                 {
                     var fileNode = new TreeNode(Path.GetFileName(file));
